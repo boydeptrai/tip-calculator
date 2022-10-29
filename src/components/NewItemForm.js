@@ -1,7 +1,7 @@
 import { Box, Button, Input, Label } from '@twilio-paste/core';
 import { useState } from 'react';
 
-export const NewItemForm = ({ onSubmit }) => {
+export const NewItemForm = ({onSubmit }) => {
   const [name, setName] = useState('');
   const [price, setPrice] = useState(0);
 
